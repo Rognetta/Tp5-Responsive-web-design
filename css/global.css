@@ -1,8 +1,6 @@
 @font-face {
     font-family: 'My Lucida';
     src: url('../font/LucidaGrande.ttf');
-    font-style: normal; 
-    font-weight: bold;
 }
 
 * { 
@@ -171,12 +169,12 @@ input.submit {
 
 #albums article {
     font-size: 13px;
-    color: #89949b;
+    color: #009b05;
     margin: 10px 0;
 }
 
 #albums article img {
-    border: 1px solid #cbcbcb;
+    border: 3px solid #cb180c;
     transition: all 0.3s;
     width: 100%;
 }
