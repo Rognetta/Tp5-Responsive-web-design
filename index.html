@@ -23,14 +23,27 @@
 			<input type="submit" name="submit" value="Rechercher" class="submit">
 		</form>
 		<div class="user">
-			<a href="#">Luke Chesser</a>
+			<div class="dropdown">
+				<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Luke Chesser
+					<span class="caret"></span>
+				</button>
+				<ul class="dropdown-menu">
+					<li><a href="#">Option 1</a></li>
+					<li><a href="#">Option 2</a></li>
+					<li><a href="#">Option 3</a></li>
+				</ul>
+			</div>
 		</div>
 	</div>
 </header>
+
+<!--Apparement le nombre d'album allait être changé pour ne pas utiliser de container fluid, en attendant je le laisse
+comme ça pour correspondre aux demandes du tp-->
 <div class="container-fluid">
 	<div class="row">
+		<div class="text-justify-lg">
+		<div class="d-none d-md-block">
 		<aside class="col col-sm-4 col-md-2 col-lg-4 col-xl-4">
-
 			<h3>Browse</h3>
 			<nav class="browse">
 				<ul class="main">
@@ -48,7 +61,8 @@
 				</ul>
 			</nav>
 		</aside>
-
+		</div>
+		</div>
 		<main class="col col-sm-8 col-md-10 col-lg-8 col-xl-8">
 			<header>
 				<div class="name-photo">
