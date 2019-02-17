@@ -17,13 +17,13 @@ a {
 }
 
 .wrapper {
-    padding: 25px 0;
+    padding: 25rem 0;
 }
 
 body > header {
-    margin-bottom: 20px;
+    margin-bottom: 20rem;
     background: white;
-    box-shadow: 1px 0px 8px rgb(200, 200, 200);
+    box-shadow: 1rem 0rem 8rem rgb(200, 200, 200);
 }
 
 header .logo-search form  {
@@ -35,13 +35,13 @@ header .user {
 }
 
 header .user a {
-    font-size: 13px;
+    font-size: 13rem;
     color: #89949b;
-    padding-top: 5px;
+    padding-top: 5rem;
 }
 
 main h2 {
-    margin-top: 4px;
+    margin-top: 4rem;
 }
 
 
@@ -52,13 +52,13 @@ main article {
 h3 {
     color: #b8c3c9;
     text-transform: uppercase;
-    font-size: 11px;
+    font-size: 11rem;
     font-weight: normal;
-    margin-bottom: 10px;
+    margin-bottom: 10rem;
 }
 
 nav ul li a { 
-    font-size: 14px;
+    font-size: 14rem;
     font-weight: normal;
     color: #828c92;
 }
@@ -68,46 +68,46 @@ nav ul li a:hover {
 }
 
 nav ul li {
-    margin-top: 5px;
+    margin-top: 5rem;
 }
 
 main header aside img {
-    border: 1px solid #dadada;
+    border: 1rem solid #dadada;
     border-radius: 50%;
-    box-shadow: 0 0 5px #cecece;
+    box-shadow: 0 0 5rem #cecece;
 }
 
 nav ul li:last-child {
-    margin-bottom: 30px;
+    margin-bottom: 30rem;
 }
 
 h1 {
     color: #4b5c66;
-    font-size: 24px;
+    font-size: 24rem;
     font-weight: normal;
-    margin: 0 0 8px 0;
+    margin: 0 0 8rem 0;
 }
 
 .name p { 
     color: #a0aab1;
-    font-size: 12px;
+    font-size: 12rem;
 }
 
 .name p img { 
-    margin-left: 12px;
+    margin-left: 12rem;
 }
 
 
 .stats-links {
     color: #4b5c66;
-    font-size: 12px;
-    padding: 15px 0px 10px 0px;
-    border-bottom: 1px solid #e1e6e9;
-    margin-bottom: 20px;
+    font-size: 12rem;
+    padding: 15rem 0rem 10rem 0rem;
+    border-bottom: 1rem solid #e1e6e9;
+    margin-bottom: 20rem;
 }
 
 .stats-links span, .stats-links a {
-    margin-right: 20px;
+    margin-right: 20rem;
 }
 
 .stats-links a:last-child {
@@ -115,13 +115,13 @@ h1 {
 }
 
 .stats-links a {
-    font-size: 12px;
+    font-size: 12rem;
     font-weight: normal;
     color: #4b5c66;
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 20rem;
     font-weight: normal;
     color: #4b5c66;
 }
@@ -131,17 +131,17 @@ header form {
 }
 
 input.search {
-    background: url("../img/icon/search.png") #ebeff1 no-repeat 8px;
+    background: url("../img/icon/search.png") #ebeff1 no-repeat 8rem;
     box-shadow: none;
-    height: 28px;
+    height: 28rem;
     width: 100%;
-    font-size: 13px;
-    padding: 3px 6px 3px 25px;
-    border: 1px solid #d0dde9;
+    font-size: 13rem;
+    padding: 3rem 6rem 3rem 25rem;
+    border: 1rem solid #d0dde9;
     margin: 0;
-    border-radius: 15px;
-    top: 11px;
-    box-shadow: inset 1px 1px 5px #d5d5d5;
+    border-radius: 15rem;
+    top: 11rem;
+    box-shadow: inset 1rem 1rem 5rem #d5d5d5;
 }
 
 input.submit {
@@ -149,14 +149,14 @@ input.submit {
 }
 
 .station {
-    font-size: 12px;
+    font-size: 12rem;
     color: #008fd5;
-    border-radius: 5px;
-    border: 1px solid #b8c3c9;
+    border-radius: 5rem;
+    border: 1rem solid #b8c3c9;
     cursor: pointer;
-    padding: 7px 10px 7px 30px;
-    box-shadow: 1px 1px #d5d5d5;
-    background: url("../img/icon/station.png") no-repeat 8px;
+    padding: 7rem 10rem 7rem 30rem;
+    box-shadow: 1rem 1rem #d5d5d5;
+    background: url("../img/icon/station.png") no-repeat 8rem;
     transition: all 0.4s;
 }
 
@@ -168,76 +168,76 @@ input.submit {
 
 
 #albums article {
-    font-size: 13px;
+    font-size: 13rem;
     color: #009b05;
-    margin: 10px 0;
+    margin: 10rem 0;
 }
 
 #albums article img {
-    border: 3px solid #cb180c;
+    border: 3rem solid #cb180c;
     transition: all 0.3s;
     width: 100%;
 }
 
 #albums article img:hover {
-    box-shadow: 0 0 15px #848484;
+    box-shadow: 0 0 15rem #848484;
     transform: scale(1.1) rotate(-3deg);
 }
 
 #albums article figcaption {
     color: #4b5c66;
-    margin-top: 6px;
+    margin-top: 6rem;
     white-space: nowrap;
     text-overflow: ellipsis;
 }
 
 #albums article .artist, #albums article .count {
-    margin-top: 4px;
+    margin-top: 4rem;
     white-space: nowrap;
     text-overflow: ellipsis;
 }
 
 #albums .explicit {
     color: #ff5d5d;
-    margin-left: 5px;
+    margin-left: 5rem;
 }
 
 nav.browse a, nav.music a {
-    padding-left: 20px;
-    padding-top: 2px;
+    padding-left: 20rem;
+    padding-top: 2rem;
 }
 
 .text-justify-xs {
     text-align: right;
 }
 
-/* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) {
+/* Small devices (tablets, 768rem and up) */
+@media (min-width: 768rem) {
     .text-justify-sm {
         text-align: right;
     }
 }
 
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) {
+/* Medium devices (desktops, 992rem and up) */
+@media (min-width: 992rem) {
     .text-justify-md {
         text-align: left;
     }
 }
 
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
+/* Large devices (large desktops, 1200rem and up) */
+@media (min-width: 1200rem) {
     .text-justify-lg {
         text-align: left;
     }
 }
 
-nav a.heavy { background: url("../img/icon/heavy.png") no-repeat 0px; }
-nav a.recent { background: url("../img/icon/recent.png") no-repeat 0px; }
-nav a.top { background: url("../img/icon/top.png") no-repeat 0px; }
-nav a.new { background: url("../img/icon/new.png") no-repeat 0px; }
-nav a.collection { background: url("../img/icon/collection.png") no-repeat 0px; }
-nav a.history { background: url("../img/icon/history.png") no-repeat 0px; }
+nav a.heavy { background: url("../img/icon/heavy.png") no-repeat 0rem; }
+nav a.recent { background: url("../img/icon/recent.png") no-repeat 0rem; }
+nav a.top { background: url("../img/icon/top.png") no-repeat 0rem; }
+nav a.new { background: url("../img/icon/new.png") no-repeat 0rem; }
+nav a.collection { background: url("../img/icon/collection.png") no-repeat 0rem; }
+nav a.history { background: url("../img/icon/history.png") no-repeat 0rem; }
 
 
 
