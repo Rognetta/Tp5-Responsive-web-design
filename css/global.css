@@ -211,19 +211,19 @@ nav.browse a, nav.music a {
     text-align: right;
 }
 /* Small devices (tablets, 768px and up) */
-@media only screen and (min-device-width: 768px) {
+@media only screen and (max-width: 768px) {
     .text-justify-sm {
         text-align: right;
     }
 }
 /* Medium devices (desktops, 992px and up) */
-@media only screen and (min-device-width: 992px) {
+@media only screen and (max-width: 992px) {
     .text-justify-md {
         text-align: left;
     }
 }
 /* Large devices (large desktops, 1200px and up) */
-@media only screen and (min-device-width: 1200px) {
+@media only screen and (max-width: 1200px) {
     .text-justify-lg {
         text-align: left;
     }
@@ -232,7 +232,7 @@ nav.browse a, nav.music a {
 .search {
 
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
     .search {
         display: block;
     }
@@ -241,7 +241,7 @@ nav.browse a, nav.music a {
 .share {
     
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
     .share {
         display: block;
     }
@@ -250,17 +250,17 @@ nav.browse a, nav.music a {
 div {
     font-size-adjust: initial;
 }
-@media only screen and (min-width: 450px) {
+@media only screen and (max-width: 450px) {
     div {
         font-size-adjust: 0.6;
     }
 }
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 600px) {
     div {
         font-size-adjust: 0.8;
     }
 }
-@media only screen and (min-width: 1400px) {
+@media only screen and (max-width: 1400px) {
     div {
         font-size-adjust: 1.2;
     }
